@@ -9,6 +9,7 @@ BUILD_DIR=$1
 VENDOR_DIR="vendor"
 DOWNLOAD_URL="http://s3.amazonaws.com/magatz-heroku-buildpack/ffmpeg.tar.gz"
 
+
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 
 cd $BUILD_DIR
